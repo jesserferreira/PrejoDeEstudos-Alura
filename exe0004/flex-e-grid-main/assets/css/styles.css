@@ -208,3 +208,44 @@ body {
     font-size: 1.2rem;
     font-weight: 700;
 }
+
+.footer {
+    border-top: 1px solid #ffffff;
+    font-family: 'icones';
+}
+
+.footer__logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5rem;
+    padding-top: 10px;
+}
+
+.footer__titulo {
+    font-size: 10px;
+    text-align: center;
+    padding: 2px;
+}
+
+.footer__descricao {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer__redesocial {
+    display: inline-block;
+    justify-items: center;
+}
+
+.footer__redesocial {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.footer__redesocial-icon {
+    width: 2.5rem;
+    padding: 0 10px;
+}
